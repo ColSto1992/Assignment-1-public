@@ -19,7 +19,45 @@
 
 <h3><em> Description </em></h3>
 
-<p> The app will have a database of recipes and ingredients as well as the prices of ingredients. I can use a web crawler to collect the recipes from different websites and blogs and have a large collection of recipes for the user. I can use the same process for the prices, can gather information from various websites and get average prices for the ingredients that will be used. (information on web crawlers found <a href="https://www.octoparse.com/blog/how-to-build-a-web-crawler-from-scratch-a-guide-for-beginners#" target="_blank"> here</a>)
+<p> The app will have a database of recipes and ingredients as well as the prices of ingredients. I can use a web crawler to collect the recipes from different websites and blogs and have a large collection of recipes for the user. I can use the same process for the prices, can gather information from various websites and get average prices for the ingredients that will be used. (information on web crawlers found <a href="https://www.octoparse.com/blog/how-to-build-a-web-crawler-from-scratch-a-guide-for-beginners#" target="_blank"> here </a>)
+
+<p> These prices may be based on seasons as well, in the app there will be an option for the user to change the price of each ingredient so they can more accurately see what the meal will cost at the local supermarkets or the website they use for shopping.
+</p>
+
+<p> The app when first used will try to get some information to help it recommend meals that are within the budget given from the database. It will ask the user for favourite foods and ingredients they like; it will also ask the user for a price range per week they want to spend on food.
+</p>
+
+<p> The app will search the database for foods that are similar to given favourite meals and any recipes that use the favourite ingredients of the user and give recommendations based on the price range given. The user can also search for specific meals as well and if they are in the database, they will show up and then you can access the ingredients, cost and recipe for it.
+</p>
+
+<p> There will be a user profile in the app that the user can use to access information like favourite meals, favourite ingredients, recommended meals, budget and spending’s. You will be able to change your price range whenever you want to from the user profile.
+</p>
+
+<p> When you go to buy your shopping online or at the supermarket you can click on the meal and tell the app you purchased the ingredients in which case the app will automatically add the price of all the ingredients to your spending tab or you can manually input how much you spend each time you shop this will obviously be more accurate than the general prices the app gives.
+</p>
+
+<p> Each day the app will tell the user in the user profile there daily spending on food you will be able to set this to display weekly or monthly spending. In the spending section of the app there will be a graph of spending for daily, weekly or monthly this gives an easy way to track and display the amount you spend on food. This will allow the user to make a more accurate budget and help with spending habits.
+</p>
+
+<h3><em> Tools and Technologies </em></h3>
+
+<p> The technology needed to create a MySQL database I will use a web crawler to collect the information needed into a free MySQL database. As said before the web crawler will search websites for certain information I need, recipes, ingredient prices and anything else I will need.
+</p>
+
+<p> A quote “MySQL is a relational database management system (RDBMS) developed by Oracle that’s based on structured query language (SQL).” (Quoted from <a href="https://www.talend.com/resources/what-is-mysql/%20HYPERLINK%20%22https:/www.talend.com/resources/what-is-mysql/" target="_blank"> here.) </a>
+</p>
+
+<p> I will use this database because it’s widely compatible and open sourced, also from what I researched it’s the most popular database because it’s widespread, effective and easy to use. (information found <a href="https://www.talend.com/resources/what-is-mysql/" target="_blank"> here.) </a>
+</p>
+
+<p> I will need to setup the app I'm unfamiliar with this process and new to coding so I will use the MIT App Inventor site linked <a href="https://appinventor.mit.edu/" target="_blank">here. </a> As I go through this process, I will start learning how to use this site with tutorials and gradually learn how to make the app to function as I want it to.
+</p>
+
+<p> Once I have the app and the database, I will have to link the app with the database, unfortunately I need a middle layer to sit in between my app and the database to manage the transactions between the two. (Information on this is <a href="https://codewithchris.com/iphone-app-connect-to-mysql-database/" target="_blank"> found here.) </a>
+</p>
+
+<p> Firstly, I have to sign up for web hosting and set up the database, then we have to setup database tables and users this is where I’m going to get my app to connect to my MySQL database, a PHP web service is going to sit on the web server and when the app sends a request, it’ll access the database for requested data and return it to app in a format it can use. (Information <a href="https://codewithchris.com/iphone-app-connect-to-mysql-database/" target="_blank"> found here.) </a> Next, I’ll need to write the PHP Web Service to query the database, then I’ll need to make the app show the data.
+</p>
 
 </body>
 
