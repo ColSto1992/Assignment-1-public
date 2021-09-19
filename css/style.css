@@ -5,14 +5,18 @@ body {
 
 h1 {
   font-size: 80px;
-  color: #d33d1f;
+  color: #ffffff;
 }
 
 h2 {
   font-size: 40px;
-  color: #d33d1f;
+  color: #ffffff;
 }
 
 a {
-  color: #d33d1f;
+  color: #000000;
+}
+
+p {
+  color: #ffffff;
 }
