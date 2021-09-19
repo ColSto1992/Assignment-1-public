@@ -25,17 +25,19 @@ li {
   color: #ffffff;
 }
 
-main {
-  padding: 10px 50px;
-}
-
 header {
   padding: 10px 50px;
-
+  margin: 25px;
   border-bottom: yellow 5px solid;
+}
+
+main {
+  padding: 10px 50px;
+  margin: 25px;
 }
 
 footer {
   padding: 20px;
-  border: solid 5px yellow; 
+  border: solid 5px yellow;
+  margin: 25px; 
 }
