@@ -31,6 +31,8 @@ main {
 
 header {
   padding: 10px 50px;
+
+  border-bottom: yellow 5px solid;
 }
 
 footer {
