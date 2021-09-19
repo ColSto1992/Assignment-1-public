@@ -24,3 +24,15 @@ p {
 li {
   color: #ffffff;
 }
+
+main {
+  padding: 10px 50px;
+}
+
+header {
+  padding: 10px 50px;
+}
+
+footer {
+  padding: 50px;
+}
